@@ -46,7 +46,7 @@ gulp.task('serve', function() {
   });
 ;
   gulp.watch([
-    './sass/**/*.scss',
+    './dev/sass/**/*.scss',
     './assets/timber.scss.liquid'
   ], ['sass']);
 });
